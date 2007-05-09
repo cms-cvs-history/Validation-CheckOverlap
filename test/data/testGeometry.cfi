@@ -1,8 +1,4 @@
-es_module = MuonNumberingInitialization { }
-
-es_source = XMLIdealGeometryESSource
-{
-
+es_source = XMLIdealGeometryESSource {
    vstring geomXMLFiles = {
                 "Geometry/CMSCommonData/data/materials.xml",
                 "Geometry/CMSCommonData/data/rotations.xml",
@@ -19,7 +15,7 @@ es_source = XMLIdealGeometryESSource
                 "Geometry/CMSCommonData/data/cmsBeam.xml",
                 "Geometry/CMSCommonData/data/muonMB.xml",
                 "Geometry/CMSCommonData/data/muonMagnet.xml",
-#                "Geometry/CMSCommonData/data/cavern.xml",
+                "Geometry/CMSCommonData/data/cavern.xml",
 		"Geometry/TrackerCommonData/data/tracker.xml",
                 "Geometry/ForwardCommonData/data/forward.xml",
                 "Geometry/ForwardCommonData/data/forwardshield.xml"
